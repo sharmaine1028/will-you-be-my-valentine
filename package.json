@@ -1,13 +1,13 @@
 {
   "name": "vite-project",
-  "homepage": "https://sharmaine1028.github.io/will-you-be-my-valentine",
+  "homepage": "https://sharmaine1028.github.io/will-you-be-my-valentine/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b gh-pages -f",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
