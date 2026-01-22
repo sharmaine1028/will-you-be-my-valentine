@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/will-you-be-my-valentine/",
+  base: "/will-you-be-my-valentine",
   plugins: [react(), tailwindcss()],
 });
